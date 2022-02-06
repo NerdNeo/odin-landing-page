@@ -1,0 +1,225 @@
+/* MISC & UNIVERSAL CODE */
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+p {
+    color: #424a57;
+    margin-top: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0%;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 10%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    padding: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    padding: 10px 30px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border-style: solid;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.logo {
+    padding-left: 200px;
+}
+
+.navLinks {
+    padding-right: 200px;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+/* SECTION ONE */
+
+.section_1 {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.heroContentBox {
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.heroContent {
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+.heroContent p {
+    font-size: 18px;
+    color: #e5e7eb;
+    opacity: 80%;
+}
+
+.img {
+    text-align: center;
+    line-height: 300px;
+    width: 600px;
+    height: 300px;
+    margin-right: 200px;
+    background-color: #878787;
+    opacity: 80%;
+    gap: 24px;
+}
+
+
+/* SECTION TWO */
+
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoText {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    gap: 60px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 16px;
+}
+
+.infoText li {
+    width: 175px;
+    height: 175px;
+}
+
+.infoImages {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+/* SECTION THREE */
+
+.section_3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #616161;
+}
+
+.quoteText, .author {
+    width: 825px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0px;
+}
+
+/* SECTION FOUR */
+
+.section_4 {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.callToAction {
+    width: 70%;
+    height: 150px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.actionText {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.subActionText {
+    font-size: 18px;
+    color: #e5e7eb;
+    opacity: 80%;
+}
+
+.signUpButton {
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
